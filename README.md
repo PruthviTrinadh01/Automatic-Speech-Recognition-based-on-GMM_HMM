@@ -87,6 +87,16 @@ The system continuously captures and processes audio data. Detected valid speech
 2. Train GMMs and HMMs using the EM algorithm.
 3. Implement real-time speech detection and classification.
 
+## Specific Commands
+The ASR system is trained to recognize and respond to the following commands:
+
+1. "Odessa": Wake word to activate the ASR system.
+2. "turn on": Command to turn on a device or system.
+3. "turn off": Command to turn off a device or system.
+4. "play music": Command to start playing music.
+5. "stop music": Command to stop playing music.
+6. "time": Command to query the current time.
+
 ## Results and Evaluation
 The models are evaluated on a validation set, with accuracy computed for each command category. The overall goal is to maximize the likelihood of the observations.
 
